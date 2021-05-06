@@ -37,7 +37,7 @@ public class MainChatController {
         Stage stage = new Stage();
 
 
-        stage.setScene(new Scene());
+        stage.setScene(new Scene()); //Надо было создать в App классе?
         stage.setResizable(false);
         stage.show();
             }
